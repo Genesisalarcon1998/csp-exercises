@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	/*background-image: url(../img/Food.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-size: 100% 100%;*/
+ }
+
+  ul
+ {
+	 float: right;
+	 list-style-type: none;
+	 margin-top: 25px;
+	 margin-right: 20px;
+ }
+ 
+ ul li
+ {
+	 display: inline-block;
+ }
+ 
+ ul li a
+ {
+	 text-decoration: none;
+	 color: #03112B;
+	 padding: 5px 20px;
+	 border: 1px solid transparent;
+	 transition: 0.6s ease;
+ }
+ 
+ ul li a:hover
+ {
+	 background-color: #C7C7C7;
+	 color: #000;
+ }
+ 
+ ul li.active a
+ {
+	 background-color: #C7C7C7;
+	 color: #000;
+ }
+ 
+ .main
+ {
+	 max-width: 1300px;
+	 margin: auto;
+ }
+
+ .personalInfo label
+ {
+ 	position: absolute;
+ }
+
+ .personalInfo input
+ {
+ 	position: absolute;
+ }
+
+.signinForm label
+{
+	position: absolute;
+}
+
+.signinForm input
+{
+	position: absolute;
+}
