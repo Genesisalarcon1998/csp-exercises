@@ -7,6 +7,7 @@
 	<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
 	<meta name = "author" content = "Genesis Alarcon">
 </head>
+
 <body>
 
 	<h3 style = "position: absolute; top: 10px; left: 10px"> Home / Sign in </h3>
