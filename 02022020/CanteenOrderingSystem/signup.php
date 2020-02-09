@@ -9,9 +9,9 @@
 	<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
 	<meta name = "author" content = "Genesis Alarcon">
 </head>
-<body>
+<body class = "signup" >
 
-<h3 style = "position: absolute; top: 10px; left: 10px"> Home / Sign up </h3>
+<h3 style = "position: absolute; top: 80px; left: 10px; color: #F8F7F8"> Sign up </h3>
 
 <div class = "main" >
 				<ul>
