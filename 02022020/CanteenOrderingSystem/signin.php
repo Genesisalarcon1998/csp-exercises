@@ -10,7 +10,7 @@
 
 <body class = "signin">
 
-	<h3 style = "position: absolute; top: 10px; left: 10px"> Home / Sign in </h3>
+	<h3 style = "position: absolute; top: 80px; left: 10px; color: #F8F7F8"> Sign in </h3>
 
 	<div class = "main" >
 				<ul>
@@ -22,14 +22,14 @@
 				</ul>	
 	</div>
 
-	<form>
+	<form class = "signInInfo">
 		<div class = "signinForm">
-		<label style = "top: 190px; left: 650px"> Email/Mobile </label>
-		<input style = "top: 213px; left: 625px" type = "email" name = "email">
-		<label style = "top: 250px; left: 660px"> Password </label>
-		<input style = "top: 273px; left: 625px" type = "password" name = "password">
+		<label style = "top: 230px; left: 683px"> Email </label>
+		<input style = "top: 253px; left: 620px; text-align: center" type = "email" name = "email">
+		<label style = "top: 310px; left: 668px"> Password </label>
+		<input style = "top: 333px; left: 620px; text-align: center" type = "password" name = "password">
 
-		<button type = "submit" name = "login" style = "position: absolute; top: 350px; left: 678px;"> Login </button>
+		<button class = "myButton" type = "submit" name = "login" style = "position: absolute; top: 430px; left: 655px"> Login </button>
 		</div>
 	</form>
 
