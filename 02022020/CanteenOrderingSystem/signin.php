@@ -1,3 +1,5 @@
+<?php include('config.php') ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,7 +24,9 @@
 				</ul>	
 	</div>
 
-	<form class = "signInInfo">
+	<form class = "signInInfo" method = "POST" action = "signin.php">
+		<?php include('errors2.php'); ?>
+
 		<div class = "signinForm">
 		<label style = "top: 230px; left: 683px"> Email </label>
 		<input style = "top: 253px; left: 620px; text-align: center" type = "email" name = "email">

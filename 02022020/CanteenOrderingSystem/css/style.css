@@ -148,7 +148,22 @@
   color: #a94442; 
   background: #f2dede; 
   border-radius: 5px; 
-  text-align: left;
+  text-align: center;
+}
+
+.error2
+{
+  position: absolute;
+  left: 612px;
+  top: 130px;
+  width: 34%; 
+  margin: 28px auto; 
+  padding: 7px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: center;
 }
 
 .success 
